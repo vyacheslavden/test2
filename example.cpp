@@ -9,6 +9,6 @@ int main()
    cout << "Enter your name: ";
    cin >> s;
    cout << s.length() << endl; // line to remove from commit
-	cout << "Hello, " << s << endl;
+	cout << "Hello, !" << s << endl;
 	return 0;
 }
