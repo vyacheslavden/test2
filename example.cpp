@@ -5,10 +5,12 @@ using namespace std;
 
 int main()
 {
-   string s;
+   string s1;
+   string s2;
    cout << "Enter your name: ";
-   cin >> s;
-   cout << s.length() << endl; // line to remove from commit
-	cout << "Hello, " << s << endl;
+   cin >> s1;
+   cout << "Now enter you last name: ";
+   cin >> s2;
+	cout << "Hello, " << s1 << " " << s2 << endl;
 	return 0;
 }
